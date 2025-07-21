@@ -113,4 +113,10 @@ msg.hideturtle()
 msg.goto(0, -100)
 msg.write("Left Team Wins!" if center_x < 0 else "Right Team Wins!", align="center", font=("Arial", 16, "bold"))
 
+for i in range(5):
+    ti.color("green")
+
+for j in range(5):
+    tj.color("green")
+
 turtle.done()
