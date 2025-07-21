@@ -1,3 +1,46 @@
+# import turtle
+# import random
+#
+# t = turtle.Turtle()
+# t.shape("turtle")
+# t_s = t.clone()
+# t.color("green")
+# t_s.color("orange")
+# # t.speed(1)
+# # t_s.speed(1)
+#
+# t.penup()
+# t.goto(300,60)
+# t.pendown()
+# t.circle(40)
+# t.penup()
+# t.setpos(-300, 100)
+# t.pendown()
+#
+# t_s.penup()
+# t_s.goto(300,-140)
+# t_s.pendown()
+# t_s.circle(40)
+# t_s.penup()
+# t_s.setpos(-300, -100)
+# t_s.pendown()
+#
+#
+# for _ in range(100):
+#     r_number1 = random.randint(1, 100)
+#     r_number2 = random.randint(1, 100)
+#     t.penup(); t_s.penup()
+#     t.fd(r_number1)
+#     t_s.fd(r_number2)
+#     t.pendown(); t_s.pendown()
+#     if t.pos() >= (300,60):
+#         print("green turtle win !")
+#         break
+#
+#     elif t_s.pos() >= (300,-140):
+#         print("orange turtle win !")
+#         break
+
 import turtle
 import random
 import time
